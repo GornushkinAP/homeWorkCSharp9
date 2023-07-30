@@ -13,3 +13,5 @@ string PrintNumbers(int start, int end) // start = n, end = 1
     return start + ", " + PrintNumbers(start - 1, end);
 }
 Console.WriteLine($"Числа от {n} до 1: {PrintNumbers(n, 1)}");
+
+
